@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(257, 40%, 49%);
+}
+
+img,
+svg {
+  max-width: 100%;
+}
+
+.main_article_headline {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #fff;
+}
+.main_article_text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: #fff;
+}
+.main_article_btn {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: hsl(257, 40%, 49%);
+}
+
+.footer {
+  display: flex;
+  column-gap: 0.75rem;
+}
+.footer .fa {
+  display: grid;
+  place-content: center;
+  width: 2em;
+  aspect-ratio: 1/1;
+  border: solid 1px #fff;
+  border-radius: 100vw;
+  color: #fff;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */
